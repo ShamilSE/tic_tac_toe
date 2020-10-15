@@ -1,0 +1,10 @@
+# создавать матрицу автоматически
+# def createMatrix():
+#     return List
+
+# input?
+
+# def whose_move():
+     is_players_step = input()
+
+is_players_step = not is_players_step
