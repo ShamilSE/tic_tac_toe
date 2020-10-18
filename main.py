@@ -32,7 +32,7 @@ def player_step():
 
 
 def game():
-    while is_win(matrix):
+    while not is_win(matrix):
         player_step()
         print('win') if is_win(matrix) else print('play')
         print(matrix)
